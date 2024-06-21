@@ -1,8 +1,13 @@
 @echo off
 echo Setting up and running the backend...
 
-:: Create a virtual environment
-python -m venv .venv
+:: Check if the .venv directory already exists
+if not exist .venv (
+    # Create virtual environment
+    python -m venv .venv
+) else (
+    echo Virtual environment already exists. Skipping creation.
+)
 
 :: Activate the virtual environment
 call .venv\Scripts\activate
