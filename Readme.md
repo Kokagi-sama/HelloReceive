@@ -9,7 +9,7 @@ IDE or Text Editor (e.g., Visual Studio Code, PyCharm)
 
 ## Clone the Repository:
 ```
-git clone https://github.com/Kokagi-sama HelloReceive.git
+git clone https://github.com/Kokagi-sama/HelloReceive.git
 ```
 
 ## Easy Setup
